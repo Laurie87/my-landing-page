@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Archivo|Lora");
+
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/cards.css");
+
+body {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+h1, h2 {
+	font-family: 'Archivo', sans-serif;
+	font-weight: bold;
+	margin-top: 60px;
+	text-shadow: 6px 6px 9px black;
+}
+
+h3 {
+	font-family: 'Archivo', sans-serif;
+	font-weight: bold;
+	text-shadow: 2px 2px 3px black;
+}
+
+p{
+	margin-bottom: 40px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+a { 
+	text-decoration: none;
+ }
